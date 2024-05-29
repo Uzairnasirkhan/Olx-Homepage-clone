@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.blueolxlogo{
+    height: 45px;
+    width: 48px;
+}
+
+.navicons{
+    font-size: 13px;
+}
+.first_top{
+    background-color: rgb(247,248,248);
+}
+
+.second_bottom{
+    display: flex;
+    background-color: rgb(247,248,248);
+}
+
+.second_bottom{
+    display: flex;
+    height: 60px;  
+}
+.second_bottom nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blacklogo img{
+   margin: 0 20px;
+   margin-left: 110px;
+   height: 35px;
+   width: 58px;
+}
+
+.searchbox1{
+    display: flex;
+    margin: 0 20px;
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.searchbox1 input{
+    width: 200px;
+    outline: none;
+    border: none;
+
+}
+.searchbox1 i{
+    margin: 15px 10px;
+}
+
+
+
+.searchbox2{
+    display: flex;
+    height: 50px;
+    width: 480px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.searchbox2 input{
+    width: 430px;
+    outline: none;
+    border: none;
+    padding: 8px;
+}
+.srchbtn{
+    background-color: black;
+    width: 50px;
+}
+.srchbtn i{
+    color: white;
+    font-size: 20px;
+    margin: 12px 14px;
+}
+
+.loginlink{
+    margin: 10px 20px;
+}
+
+.loginlink a{
+   text-decoration: underline;
+   color: black;
+   font-weight: 700;
+}
+
+
+.listdropdown{
+    list-style: none;
+    margin: 10px 25px;
+}
+
+.sellbut{
+    width: 104px;
+    height: 48px;
+    background-image: url(./images/sellbutton.svg);
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 8px;
+}
+
+.bottomnavbar{
+    height: 40px;
+    width: 100%;
+    box-shadow: 10px 0 20px rgb(243, 241, 241);
+
+}
+
+.bottomnavbar a{
+    text-decoration: none;
+    color: black;
+    margin-top: 8px;
+}
+.bottomnavbar a:hover{
+   color: green;
+}
+
+
+.advertisement1 img{
+    width: 100%;
+    height: 200px;
+}    
+
+.categories1,.categories2{
+    font-weight: 700;
+}
+
+.categories1 img{
+    width: 100px;
+    height: 100px;
+}
+.categories2 img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.advertisement2 img{
+    width: 1000px;
+    height: 180px;
+}
+
+.appflex img{
+   width: 130px;
+   height: 40px;
+}
+.olxbanner{
+    background-color: rgb(247,248,249);
+}
+.bannerlft{
+    background-color:  rgb(247,248,249);
+}
+.bannerrgt{
+    background-color: rgb(247,248,249);
+}
+
+
+
+
+.footertop{
+    background-color: rgb(235,238,239);
+    padding-left: 100px;
+}
+
+.footertop li{
+    list-style: none;
+    margin-left: -30px;
+}
+.footertop a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(85,116,119);
+}
+
+.footertop a:hover{
+    text-decoration: underline;
+}
+
+.divicons img{
+    height: 25px;
+    width: 25px;
+}
+.stores img{
+    width: 80px;
+    height: 25px;
+}
+
+.sellbut:hover{
+    cursor: pointer;
+}
+
+.footerbottom{
+    background-color: rgb(0,47,52);
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+}
